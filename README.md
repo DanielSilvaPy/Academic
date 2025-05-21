@@ -26,37 +26,44 @@ A base reúne respostas de estudantes sobre seus hábitos de uso de redes sociai
 
 **Fonte**: Pesquisa aplicada no primeiro trimestre de 2025, com amostra internacional.
 
-- **População**: Estudantes de 16 a 25 anos
-- **Abrangência geográfica**: Bangladesh, Índia, EUA, Reino Unido, Canadá, Austrália, Alemanha, Brasil, Japão, Coreia do Sul
+- **População**: Estudantes de 16 a 25 anos  
+- **Abrangência geográfica**: Bangladesh, Índia, EUA, Reino Unido, Canadá, Austrália, Alemanha, Brasil, Japão, Coreia do Sul  
 - **Volume**: Até 1.000 registros anonimizados
 
 ### Principais variáveis
 
 | Variável                         | Tipo        | Descrição                                                                 |
-|----------------------------------|-------------|---------------------------------------------------------------------------|
+|---------------------------------|-------------|---------------------------------------------------------------------------|
 | `Student_ID`                    | Inteiro     | Identificador exclusivo                                                   |
-| `idade`                         | Inteiro     | Idade do estudante                                                       |
-| `genero`                        | Categórico  | "Male" ou "Female"                                                       |
+| `idade`                        | Inteiro     | Idade do estudante                                                       |
+| `genero`                       | Categórico  | "Male" ou "Female"                                                       |
 | `nivel_academico`              | Categórico  | Ensino Médio, Graduação ou Pós-Graduação                                |
-| `pais`                          | Categórico  | País de residência                                                       |
+| `pais`                         | Categórico  | País de residência                                                       |
 | `plataforma_hora`              | Float       | Horas diárias gastas em redes sociais                                    |
-| `plataforma_mais_usada`       | Categórico  | Instagram, Facebook, TikTok etc.                                         |
+| `plataforma_mais_usada`        | Categórico  | Instagram, Facebook, TikTok etc.                                         |
 | `afeta_academic_performance`   | Booleano    | Se as redes sociais afetam o desempenho acadêmico (Yes/No)              |
-| `dormir_horas_per_noite`      | Float       | Média de horas de sono por noite                                         |
-| `pontuacao_saude_mental`      | Inteiro     | Avaliação subjetiva de saúde mental (0 a 10)                             |
-| `relacionamento_status`       | Categórico  | Solteiro, Em relacionamento, Complicado                                  |
-| `conflitos_sobre_social_media`| Inteiro     | Número de conflitos de relacionamento relacionados às redes sociais     |
-| `pontuacao_viciada`           | Inteiro     | Pontuação de vício em redes sociais (0 a 10)                             |
+| `dormir_horas_per_noite`       | Float       | Média de horas de sono por noite                                         |
+| `pontuacao_saude_mental`       | Inteiro     | Avaliação subjetiva de saúde mental (0 a 10)                             |
+| `relacionamento_status`        | Categórico  | Solteiro, Em relacionamento, Complicado                                  |
+| `conflitos_sobre_social_media` | Inteiro     | Número de conflitos de relacionamento relacionados às redes sociais     |
+| `pontuacao_viciada`            | Inteiro     | Pontuação de vício em redes sociais (0 a 10)                             |
 
 ---
 
 ## 🛠 Tecnologias Utilizadas
 
-- 🐍 Python 3.x
-- 📊 Pandas
-- 🤖 Scikit-learn
-- 📈 Matplotlib
-- 💾 Pickle
-- 🌐 Streamlit
+- 🐍 Python 3.x  
+- 📊 Pandas  
+- 🤖 Scikit-learn  
+- 📈 Matplotlib  
+- 💾 Pickle  
+- 🌐 Streamlit  
 
 ---
+
+## 🔗 Projeto em Produção
+
+Você pode acessar a aplicação web interativa pelo link abaixo:
+
+👉 [**Acesse a aplicação no Streamlit Cloud**](https://academic-ge4stwhjgsbunyxwqntsiy.streamlit.app/)
+

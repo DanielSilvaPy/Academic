@@ -31,7 +31,7 @@ def main():
     dormir_horas_per_noite = st.number_input("Horas de sono por noite", min_value=0.0, max_value=24.0, value=7.0, step=0.1)
     pontuacao_saude_mental = st.number_input("Pontuação saúde mental (0-10)", min_value=0, max_value=10, value=5)
     relacionamento_status = st.selectbox("Status do relacionamento", rel_status)
-    conflitos_sobre_social_media = st.number_input("Conflitos sobre social media (0-10)", min_value=0, max_value=10, value=2)
+    conflitos_sobre_social_media = st.number_input("Conflitos sobre social media (0-10).", min_value=0, max_value=10, value=2)
     pontuacao_viciada = st.number_input("Pontuação de vício (0-10)", min_value=0, max_value=10, value=5)
 
     # Criar dataframe de entrada com os dados do usuário
